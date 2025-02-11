@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/simple_connect/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/simple_connect/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/simple_connect/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/simple_connect/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/simple_connect/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/simple_connect/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/simple_connect/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/simple_connect/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/simple_connect/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/simple_connect/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}

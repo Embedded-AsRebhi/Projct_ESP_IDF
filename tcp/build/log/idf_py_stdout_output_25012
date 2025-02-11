@@ -1,0 +1,16 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D C:\Users\Administrateur\Documents\Factory_connected_MQTT\ESP32_MQTT_Programs\ESP_MQTT_ESPIDF\ESP-MQTT-AHT20\tcp\build\bootloader\esp-idf\esptool_py && c:\Espressif\frameworks\esp-idf-v5.3.1\tools\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.3.1/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6880 bytes. 0x780 bytes (7%) free.
+[2/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/app_main.c.obj
+In file included from C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/main/app_main.c:32:
+C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/main/app_main.c: In function 'mqtt_event_handler':
+C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/main/driver_aht20.h:114:75: warning: assignment to 'uint8_t (*)(void)' {aka 'unsigned char (*)(void)'} from incompatible pointer type 'uint8_t (*)(aht20_handle_t *)' {aka 'unsigned char (*)(struct aht20_handle_s *)'} [-Wincompatible-pointer-types]
+  114 | #define DRIVER_AHT20_LINK_IIC_INIT(HANDLE, FUC)        (HANDLE)->iic_init = FUC
+      |                                                                           ^
+C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/main/app_main.c:71:5: note: in expansion of macro 'DRIVER_AHT20_LINK_IIC_INIT'
+   71 |     DRIVER_AHT20_LINK_IIC_INIT(&handle, aht20_init);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/main/driver_aht20.h:122:77: warning: assignment to 'uint8_t (*)(void)' {aka 'unsigned char (*)(void)'} from incompatible pointer type 'uint8_t (*)(aht20_handle_t *)' {aka 'unsigned char (*)(struct aht20_handle_s *)'} [-Wincompatible-pointer-types]
+  122 | #define DRIVER_AHT20_LINK_IIC_DEINIT(HANDLE, FUC)      (HANDLE)->iic_deinit = FUC
+      |                                                                             ^
+C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/main/app_main.c:72:5: note: in expansion of macro 'DRIVER_AHT20_LINK_IIC_DEINIT'

@@ -1,0 +1,25 @@
+[0;33m--- Warning: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM20 instead...[0m
+[0;33m--- esp-idf-monitor 1.5.0 on \\.\COM20 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is ddc4650ed93267d0a279ee8efbcfa1edefa2f955b9bdfdc79356fc9c5cdf886a[0m
+[0;33m--- 0x40081a4a: panic_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/panic.c:463
+0x400894cd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/port/esp_system_chip.c:92
+0x40091265: __assert_func at C:/Espressif/frameworks/esp-idf-v5.3.1/components/newlib/assert.c:80
+0x4008a25e: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/include/spinlock.h:140 (discriminator 1)
+ (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:474 (discriminator 1)
+0x40089e08: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+ (inlined by) xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/queue.c:1727
+0x400dba08: example_wifi_sta_do_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:174
+0x400dbbf7: bootloader_flash_update_id at C:/Espressif/frameworks/esp-idf-v5.3.1/components/bootloader_support/bootloader_flash/src/bootloader_flash_config_esp32.c:40
+0x400db4e3: example_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/connect.c:102 (discriminator 1)
+0x400d809f: app_main at C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/main/app_main.c:189
+0x4016a717: main_task at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/app_startup.c:209 (discriminator 1)
+0x40089fd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is ddc4650ed93267d0a279ee8efbcfa1edefa2f955b9bdfdc79356fc9c5cdf886a[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is ddc4650ed93267d0a279ee8efbcfa1edefa2f955b9bdfdc79356fc9c5cdf886a[0m

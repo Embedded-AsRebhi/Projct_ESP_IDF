@@ -1,0 +1,457 @@
+[0;33m--- Warning: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM20 instead...[0m
+[0;33m--- esp-idf-monitor 1.5.0 on \\.\COM20 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081a4a: panic_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/panic.c:463
+0x400894cd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/port/esp_system_chip.c:92
+0x40091265: __assert_func at C:/Espressif/frameworks/esp-idf-v5.3.1/components/newlib/assert.c:80
+0x4008a25e: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/include/spinlock.h:140 (discriminator 1)
+ (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:474 (discriminator 1)
+0x40089e08: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+ (inlined by) xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/queue.c:1727
+0x400db9f4: example_wifi_sta_do_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:169
+0x400dbbe3: example_wifi_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:242
+0x400db4cf: example_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/connect.c:99
+0x400d808b: app_main at C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/main/app_main.c:185
+0x4016a703: main_task at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/app_startup.c:208
+0x40089fd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081a4a: panic_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/panic.c:463
+0x400894cd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/port/esp_system_chip.c:92
+0x40091265: __assert_func at C:/Espressif/frameworks/esp-idf-v5.3.1/components/newlib/assert.c:80
+0x4008a25e: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/include/spinlock.h:140 (discriminator 1)
+ (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:474 (discriminator 1)
+0x40089e08: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+ (inlined by) xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/queue.c:1727
+0x400db9f4: example_wifi_sta_do_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:169
+0x400dbbe3: example_wifi_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:242
+0x400db4cf: example_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/connect.c:99
+0x400d808b: app_main at C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/main/app_main.c:185
+0x4016a703: main_task at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/app_startup.c:208
+0x40089fd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081a4a: panic_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/panic.c:463
+0x400894cd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/port/esp_system_chip.c:92
+0x40091265: __assert_func at C:/Espressif/frameworks/esp-idf-v5.3.1/components/newlib/assert.c:80
+0x4008a25e: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/include/spinlock.h:140 (discriminator 1)
+ (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:474 (discriminator 1)
+0x40089e08: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+ (inlined by) xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/queue.c:1727
+0x400db9f4: example_wifi_sta_do_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:169
+0x400dbbe3: example_wifi_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:242
+0x400db4cf: example_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/connect.c:99
+0x400d808b: app_main at C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/main/app_main.c:185
+0x4016a703: main_task at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/app_startup.c:208
+0x40089fd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081a4a: panic_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/panic.c:463
+0x400894cd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/port/esp_system_chip.c:92
+0x40091265: __assert_func at C:/Espressif/frameworks/esp-idf-v5.3.1/components/newlib/assert.c:80
+0x4008a25e: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/include/spinlock.h:140 (discriminator 1)
+ (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:474 (discriminator 1)
+0x40089e08: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+ (inlined by) xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/queue.c:1727
+0x400db9f4: example_wifi_sta_do_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:169
+0x400dbbe3: example_wifi_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:242
+0x400db4cf: example_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/connect.c:99
+0x400d808b: app_main at C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/main/app_main.c:185
+0x4016a703: main_task at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/app_startup.c:208
+0x40089fd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081a4a: panic_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/panic.c:463
+0x400894cd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/port/esp_system_chip.c:92
+0x40091265: __assert_func at C:/Espressif/frameworks/esp-idf-v5.3.1/components/newlib/assert.c:80
+0x4008a25e: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/include/spinlock.h:140 (discriminator 1)
+ (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:474 (discriminator 1)
+0x40089e08: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+ (inlined by) xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/queue.c:1727
+0x400db9f4: example_wifi_sta_do_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:169
+0x400dbbe3: example_wifi_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:242
+0x400db4cf: example_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/connect.c:99
+0x400d808b: app_main at C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/main/app_main.c:185
+0x4016a703: main_task at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/app_startup.c:208
+0x40089fd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081a4a: panic_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/panic.c:463
+0x400894cd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/port/esp_system_chip.c:92
+0x40091265: __assert_func at C:/Espressif/frameworks/esp-idf-v5.3.1/components/newlib/assert.c:80
+0x4008a25e: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/include/spinlock.h:140 (discriminator 1)
+ (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:474 (discriminator 1)
+0x40089e08: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+ (inlined by) xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/queue.c:1727
+0x400db9f4: example_wifi_sta_do_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:169
+0x400dbbe3: example_wifi_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:242
+0x400db4cf: example_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/connect.c:99
+0x400d808b: app_main at C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/main/app_main.c:185
+0x4016a703: main_task at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/app_startup.c:208
+0x40089fd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081a4a: panic_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/panic.c:463
+0x400894cd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/port/esp_system_chip.c:92
+0x40091265: __assert_func at C:/Espressif/frameworks/esp-idf-v5.3.1/components/newlib/assert.c:80
+0x4008a25e: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/include/spinlock.h:140 (discriminator 1)
+ (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:474 (discriminator 1)
+0x40089e08: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+ (inlined by) xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/queue.c:1727
+0x400db9f4: example_wifi_sta_do_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:169
+0x400dbbe3: example_wifi_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:242
+0x400db4cf: example_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/connect.c:99
+0x400d808b: app_main at C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/main/app_main.c:185
+0x4016a703: main_task at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/app_startup.c:208
+0x40089fd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081a4a: panic_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/panic.c:463
+0x400894cd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/port/esp_system_chip.c:92
+0x40091265: __assert_func at C:/Espressif/frameworks/esp-idf-v5.3.1/components/newlib/assert.c:80
+0x4008a25e: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/include/spinlock.h:140 (discriminator 1)
+ (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:474 (discriminator 1)
+0x40089e08: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+ (inlined by) xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/queue.c:1727
+0x400db9f4: example_wifi_sta_do_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:169
+0x400dbbe3: example_wifi_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:242
+0x400db4cf: example_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/connect.c:99
+0x400d808b: app_main at C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/main/app_main.c:185
+0x4016a703: main_task at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/app_startup.c:208
+0x40089fd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081a4a: panic_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/panic.c:463
+0x400894cd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/port/esp_system_chip.c:92
+0x40091265: __assert_func at C:/Espressif/frameworks/esp-idf-v5.3.1/components/newlib/assert.c:80
+0x4008a25e: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/include/spinlock.h:140 (discriminator 1)
+ (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:474 (discriminator 1)
+0x40089e08: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+ (inlined by) xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/queue.c:1727
+0x400db9f4: example_wifi_sta_do_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:169
+0x400dbbe3: example_wifi_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:242
+0x400db4cf: example_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/connect.c:99
+0x400d808b: app_main at C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/main/app_main.c:185
+0x4016a703: main_task at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/app_startup.c:208
+0x40089fd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081a4a: panic_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/panic.c:463
+0x400894cd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/port/esp_system_chip.c:92
+0x40091265: __assert_func at C:/Espressif/frameworks/esp-idf-v5.3.1/components/newlib/assert.c:80
+0x4008a25e: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/include/spinlock.h:140 (discriminator 1)
+ (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:474 (discriminator 1)
+0x40089e08: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+ (inlined by) xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/queue.c:1727
+0x400db9f4: example_wifi_sta_do_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:169
+0x400dbbe3: example_wifi_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:242
+0x400db4cf: example_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/connect.c:99
+0x400d808b: app_main at C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/main/app_main.c:185
+0x4016a703: main_task at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/app_startup.c:208
+0x40089fd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081a4a: panic_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/panic.c:463
+0x400894cd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/port/esp_system_chip.c:92
+0x40091265: __assert_func at C:/Espressif/frameworks/esp-idf-v5.3.1/components/newlib/assert.c:80
+0x4008a25e: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/include/spinlock.h:140 (discriminator 1)
+ (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:474 (discriminator 1)
+0x40089e08: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+ (inlined by) xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/queue.c:1727
+0x400db9f4: example_wifi_sta_do_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:169
+0x400dbbe3: example_wifi_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:242
+0x400db4cf: example_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/connect.c:99
+0x400d808b: app_main at C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/main/app_main.c:185
+0x4016a703: main_task at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/app_startup.c:208
+0x40089fd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081a4a: panic_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/panic.c:463
+0x400894cd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/port/esp_system_chip.c:92
+0x40091265: __assert_func at C:/Espressif/frameworks/esp-idf-v5.3.1/components/newlib/assert.c:80
+0x4008a25e: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/include/spinlock.h:140 (discriminator 1)
+ (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:474 (discriminator 1)
+0x40089e08: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+ (inlined by) xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/queue.c:1727
+0x400db9f4: example_wifi_sta_do_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:169
+0x400dbbe3: example_wifi_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:242
+0x400db4cf: example_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/connect.c:99
+0x400d808b: app_main at C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/main/app_main.c:185
+0x4016a703: main_task at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/app_startup.c:208
+0x40089fd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081a4a: panic_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/panic.c:463
+0x400894cd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/port/esp_system_chip.c:92
+0x40091265: __assert_func at C:/Espressif/frameworks/esp-idf-v5.3.1/components/newlib/assert.c:80
+0x4008a25e: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/include/spinlock.h:140 (discriminator 1)
+ (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:474 (discriminator 1)
+0x40089e08: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+ (inlined by) xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/queue.c:1727
+0x400db9f4: example_wifi_sta_do_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:169
+0x400dbbe3: example_wifi_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:242
+0x400db4cf: example_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/connect.c:99
+0x400d808b: app_main at C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/main/app_main.c:185
+0x4016a703: main_task at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/app_startup.c:208
+0x40089fd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081a4a: panic_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/panic.c:463
+0x400894cd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/port/esp_system_chip.c:92
+0x40091265: __assert_func at C:/Espressif/frameworks/esp-idf-v5.3.1/components/newlib/assert.c:80
+0x4008a25e: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/include/spinlock.h:140 (discriminator 1)
+ (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:474 (discriminator 1)
+0x40089e08: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+ (inlined by) xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/queue.c:1727
+0x400db9f4: example_wifi_sta_do_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:169
+0x400dbbe3: example_wifi_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:242
+0x400db4cf: example_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/connect.c:99
+0x400d808b: app_main at C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/main/app_main.c:185
+0x4016a703: main_task at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/app_startup.c:208
+0x40089fd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081a4a: panic_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/panic.c:463
+0x400894cd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/port/esp_system_chip.c:92
+0x40091265: __assert_func at C:/Espressif/frameworks/esp-idf-v5.3.1/components/newlib/assert.c:80
+0x4008a25e: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/include/spinlock.h:140 (discriminator 1)
+ (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:474 (discriminator 1)
+0x40089e08: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+ (inlined by) xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/queue.c:1727
+0x400db9f4: example_wifi_sta_do_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:169
+0x400dbbe3: example_wifi_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:242
+0x400db4cf: example_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/connect.c:99
+0x400d808b: app_main at C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/main/app_main.c:185
+0x4016a703: main_task at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/app_startup.c:208
+0x40089fd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081a4a: panic_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/panic.c:463
+0x400894cd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/port/esp_system_chip.c:92
+0x40091265: __assert_func at C:/Espressif/frameworks/esp-idf-v5.3.1/components/newlib/assert.c:80
+0x4008a25e: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/include/spinlock.h:140 (discriminator 1)
+ (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:474 (discriminator 1)
+0x40089e08: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+ (inlined by) xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/queue.c:1727
+0x400db9f4: example_wifi_sta_do_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:169
+0x400dbbe3: example_wifi_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:242
+0x400db4cf: example_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/connect.c:99
+0x400d808b: app_main at C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/main/app_main.c:185
+0x4016a703: main_task at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/app_startup.c:208
+0x40089fd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081a4a: panic_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/panic.c:463
+0x400894cd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/port/esp_system_chip.c:92
+0x40091265: __assert_func at C:/Espressif/frameworks/esp-idf-v5.3.1/components/newlib/assert.c:80
+0x4008a25e: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/include/spinlock.h:140 (discriminator 1)
+ (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:474 (discriminator 1)
+0x40089e08: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+ (inlined by) xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/queue.c:1727
+0x400db9f4: example_wifi_sta_do_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:169
+0x400dbbe3: example_wifi_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:242
+0x400db4cf: example_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/connect.c:99
+0x400d808b: app_main at C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/main/app_main.c:185
+0x4016a703: main_task at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/app_startup.c:208
+0x40089fd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m--- 0x40081a4a: panic_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/panic.c:463
+0x400894cd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/port/esp_system_chip.c:92
+0x40091265: __assert_func at C:/Espressif/frameworks/esp-idf-v5.3.1/components/newlib/assert.c:80
+0x4008a25e: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/include/spinlock.h:140 (discriminator 1)
+ (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:474 (discriminator 1)
+0x40089e08: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+ (inlined by) xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/queue.c:1727
+0x400db9f4: example_wifi_sta_do_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:169
+0x400dbbe3: example_wifi_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:242
+0x400db4cf: example_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/connect.c:99
+0x400d808b: app_main at C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/main/app_main.c:185
+0x4016a703: main_task at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/app_startup.c:208
+0x40089fd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081a4a: panic_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/panic.c:463
+0x400894cd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/port/esp_system_chip.c:92
+0x40091265: __assert_func at C:/Espressif/frameworks/esp-idf-v5.3.1/components/newlib/assert.c:80
+0x4008a25e: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/include/spinlock.h:140 (discriminator 1)
+ (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:474 (discriminator 1)
+0x40089e08: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+ (inlined by) xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/queue.c:1727
+0x400db9f4: example_wifi_sta_do_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:169
+0x400dbbe3: example_wifi_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:242
+0x400db4cf: example_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/connect.c:99
+0x400d808b: app_main at C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/main/app_main.c:185
+0x4016a703: main_task at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/app_startup.c:208
+0x40089fd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081a4a: panic_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/panic.c:463
+0x400894cd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/port/esp_system_chip.c:92
+0x40091265: __assert_func at C:/Espressif/frameworks/esp-idf-v5.3.1/components/newlib/assert.c:80
+0x4008a25e: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/include/spinlock.h:140 (discriminator 1)
+ (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:474 (discriminator 1)
+0x40089e08: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+ (inlined by) xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/queue.c:1727
+0x400db9f4: example_wifi_sta_do_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:169
+0x400dbbe3: example_wifi_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:242
+0x400db4cf: example_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/connect.c:99
+0x400d808b: app_main at C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/main/app_main.c:185
+0x4016a703: main_task at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/app_startup.c:208
+0x40089fd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m--- 0x40081a4a: panic_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/panic.c:463
+0x400894cd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/port/esp_system_chip.c:92
+0x40091265: __assert_func at C:/Espressif/frameworks/esp-idf-v5.3.1/components/newlib/assert.c:80
+0x4008a25e: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/include/spinlock.h:140 (discriminator 1)
+ (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:474 (discriminator 1)
+0x40089e08: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+ (inlined by) xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/queue.c:1727
+0x400db9f4: example_wifi_sta_do_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:169
+0x400dbbe3: example_wifi_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:242
+0x400db4cf: example_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/connect.c:99
+0x400d808b: app_main at C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/main/app_main.c:185
+0x4016a703: main_task at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/app_startup.c:208
+0x40089fd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081a4a: panic_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/panic.c:463
+0x400894cd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/port/esp_system_chip.c:92
+0x40091265: __assert_func at C:/Espressif/frameworks/esp-idf-v5.3.1/components/newlib/assert.c:80
+0x4008a25e: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/include/spinlock.h:140 (discriminator 1)
+ (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:474 (discriminator 1)
+0x40089e08: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+ (inlined by) xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/queue.c:1727
+0x400db9f4: example_wifi_sta_do_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:169
+0x400dbbe3: example_wifi_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:242
+0x400db4cf: example_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/connect.c:99
+0x400d808b: app_main at C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/main/app_main.c:185
+0x4016a703: main_task at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/app_startup.c:208
+0x40089fd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081a4a: panic_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/panic.c:463
+0x400894cd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/port/esp_system_chip.c:92
+0x40091265: __assert_func at C:/Espressif/frameworks/esp-idf-v5.3.1/components/newlib/assert.c:80
+0x4008a25e: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/include/spinlock.h:140 (discriminator 1)
+ (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:474 (discriminator 1)
+0x40089e08: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+ (inlined by) xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/queue.c:1727
+0x400db9f4: example_wifi_sta_do_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:169
+0x400dbbe3: example_wifi_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:242
+0x400db4cf: example_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/connect.c:99
+0x400d808b: app_main at C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/main/app_main.c:185
+0x4016a703: main_task at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/app_startup.c:208
+0x40089fd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m--- 0x40081a4a: panic_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/panic.c:463
+0x400894cd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/port/esp_system_chip.c:92
+0x40091265: __assert_func at C:/Espressif/frameworks/esp-idf-v5.3.1/components/newlib/assert.c:80
+0x4008a25e: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/include/spinlock.h:140 (discriminator 1)
+ (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:474 (discriminator 1)
+0x40089e08: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+ (inlined by) xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/queue.c:1727
+0x400db9f4: example_wifi_sta_do_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:169
+0x400dbbe3: example_wifi_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:242
+0x400db4cf: example_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/connect.c:99
+0x400d808b: app_main at C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/main/app_main.c:185
+0x4016a703: main_task at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/app_startup.c:208
+0x40089fd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[1;31m--- Error: ClearCommError failed (PermissionError(13, 'Accès refusé.', None, 5))[0m
+[0;33m--- Waiting for the device to reconnect[0m[0;33m.[0m[0;33m--- 0x40081a4a: panic_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/panic.c:463
+0x400894cd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/port/esp_system_chip.c:92
+0x40091265: __assert_func at C:/Espressif/frameworks/esp-idf-v5.3.1/components/newlib/assert.c:80
+0x4008a25e: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/include/spinlock.h:140 (discriminator 1)
+ (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:474 (discriminator 1)
+0x40089e08: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+ (inlined by) xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/queue.c:1727
+0x400db9f4: example_wifi_sta_do_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:169
+0x400dbbe3: example_wifi_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/wifi_connect.c:242
+0x400db4cf: example_connect at C:/Espressif/frameworks/esp-idf-v5.3.1/examples/common_components/protocol_examples_common/connect.c:99
+0x400d808b: app_main at C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/main/app_main.c:185
+0x4016a703: main_task at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/app_startup.c:208
+0x40089fd9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m.[0m[0;33m.[0m[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m.[0m[0;33m.[0m[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m.[0m[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m.[0m[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m.[0m[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m.[0m[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m.[0m[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[1;31m--- Error: Unknown menu character Ctrl+V[0m
+[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m[0m
+[0;33m--- Running c:\Espressif\frameworks\esp-idf-v5.3.1\tools\python_env\idf5.3_py3.11_env\Scripts\python.exe c:\Espressif\frameworks\esp-idf-v5.3.1\tools\idf.py app-flash...[0m
+CMake Error at run_serial_tool.cmake:66 (message):
+  
+  c:/Espressif/frameworks/esp-idf-v5.3.1/tools/python_env/idf5.3_py3.11_env/Scripts/python.exe;;C:/Espressif/frameworks/esp-idf-v5.3.1/components/esptool_py/esptool/esptool.py;--chip;esp32
+  failed.
+
+
+
+ninja failed with exit code 1, output of the command is in the C:\Users\Administrateur\Documents\Factory_connected_MQTT\ESP32_MQTT_Programs\ESP_MQTT_ESPIDF\ESP-MQTT-AHT20\tcp\build\log\idf_py_stderr_output_24708 and C:\Users\Administrateur\Documents\Factory_connected_MQTT\ESP32_MQTT_Programs\ESP_MQTT_ESPIDF\ESP-MQTT-AHT20\tcp\build\log\idf_py_stdout_output_24708
+[1;31m--- Build failed[0m
+[1;31m--- Press Ctrl+] to exit monitor.
+--- Press Ctrl+F to build & flash project.
+--- Press Ctrl+A to build & flash app.
+--- Press any other key to resume monitor (resets target).
+[0m
+[0;33m--- Connection to \\.\COM20 failed. Available ports:
+COM20[0m
+[0m
+Traceback (most recent call last):
+  File "c:\Espressif\frameworks\esp-idf-v5.3.1\tools/idf_monitor.py", line 11, in <module>
+    sys.exit(subprocess.run([sys.executable, '-m', 'esp_idf_monitor'] + sys.argv[1:]).returncode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "subprocess.py", line 550, in run
+  File "subprocess.py", line 1199, in communicate
+  File "subprocess.py", line 1262, in wait
+  File "subprocess.py", line 1543, in _wait
+KeyboardInterrupt

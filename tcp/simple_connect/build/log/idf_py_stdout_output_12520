@@ -1,0 +1,10 @@
+-- ccache will be used for faster recompilation
+-- git describe returned 'fatal: bad revision 'HEAD''
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+Manifest files have changed, solving dependencies.
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/Administrateur/Documents/Factory_connected_MQTT/ESP32_MQTT_Programs/ESP_MQTT_ESPIDF/ESP-MQTT-AHT20/tcp/simple_connect/build/CMakeFiles/CMakeOutput.log".
+[0/1] Re-running CMake...
+FAILED: build.ninja 
+C:\Espressif\frameworks\esp-idf-v5.3.1\tools\tools\cmake\3.24.0\bin\cmake.exe --regenerate-during-build -SC:\Users\Administrateur\Documents\Factory_connected_MQTT\ESP32_MQTT_Programs\ESP_MQTT_ESPIDF\ESP-MQTT-AHT20\tcp\simple_connect -BC:\Users\Administrateur\Documents\Factory_connected_MQTT\ESP32_MQTT_Programs\ESP_MQTT_ESPIDF\ESP-MQTT-AHT20\tcp\simple_connect\build
